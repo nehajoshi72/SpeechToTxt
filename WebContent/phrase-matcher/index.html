@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Phrase matcher</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body class="background">
+<div class="mainDiv">
+ <img src="../image/red_mic.png"
+			style="width: 120px; height: 120px; margin: 100px 0 0 550px;" id="mic">
+			<img src="../image/green_mic.png" style="width: 120px; height: 120px; margin: 0 0 0 550px; display: none" id="start">
+			<br>
+			<br>
+			<table>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+			<td>
+			<img src="../image/play.png" style="width: 70px; height: 70px; margin: 0 0 0 500px;" id="play">
+			</td>
+			<td></td>
+			<td></td>
+			<td>
+			<img src="../image/pause.png" style="width: 70px; height: 70px; margin: 0 0 0 0px;" id="pause" onclick="pauseRecognizeSpeech()">
+			</td>
+			<td></td>
+			<td></td>
+			<td>
+			<img src="../image/stop.png" style="width: 70px; height: 70px; margin: 0 0 0 0px;" id="stop" onclick="stopRecognizeSpeech()">
+			</td>
+			</tr>
+			</table>
+			</div>
+			<div>
+       <!-- <p class="phrase">Phrase...</p>
+        <p class="result">Right or wrong?</p>-->
+        <p class="output">...KT Transcript</p>
+        </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
